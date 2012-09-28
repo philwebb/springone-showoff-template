@@ -12,8 +12,8 @@ dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
 }
 
 #preso {
-	position:absolute; 
-	top:50%; 
+	position:absolute;
+	top:50%;
 	height:720px;
 	margin-top:-360px;
 	box-shadow: none;
@@ -190,4 +190,13 @@ div.cover {
     font-style: italic;
 }
 
+pre.conffile {
+	background: #DDDDDD;
+	padding: 10px;
+	margin-left: 120px;
+	margin-right: 120px;
+}
 
+del {
+	color: red;
+}
