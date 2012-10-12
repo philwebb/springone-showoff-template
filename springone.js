@@ -22,5 +22,7 @@ $(function() {
 
 function toggleFooter() {
 	$("#footer").toggle();
-	$("#copyright").toggle();
+	if($(".cover").is(':visible')) {
+		$("#copyright").toggle();
+	}
 }

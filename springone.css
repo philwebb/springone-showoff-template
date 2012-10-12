@@ -34,8 +34,18 @@ body {
 	color: #535353;
 }
 
+a, a:visited, a:active, a:hover {
+	color: #535353;
+	text-decoration: underline;
+}
+
 div.content {
 	font-size: 2.2em;
+}
+
+div.smaller p,
+div.smaller pre {
+	font-size: 0.9em;
 }
 
 h1 {
@@ -58,6 +68,15 @@ ul > li {
 
 .content > p {
 	text-align: left;
+}
+
+.quote > p {
+    font-size: 1.3em;
+    font-style: italic;
+    padding-top: 40px;
+    text-align: center;
+    background: url("quote.png") no-repeat top left;
+    padding: 50px;
 }
 
 div.content {
@@ -89,6 +108,13 @@ div.content {
 
 .content ul li {
 	padding : 18px 0 0 10px;
+}
+
+.slide .center {
+	display: inherit;
+	height: inherit;
+	vertical-align: inherit;
+	width: inherit;
 }
 
 h1 {
