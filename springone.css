@@ -133,7 +133,8 @@ h1 {
 	color: inherit;
 }
 
-#footer {
+#footer,
+#copyright {
     height: 720px;
 	margin: 0;
     margin-top: -360px;
@@ -145,13 +146,6 @@ h1 {
 }
 
 #copyright {
-    height: 720px;
-	margin: 0;
-    margin-top: -360px;
-    position: absolute;
-    top: 50%;
-	width: 100%;
-	padding: 0;
 	font-size: 0.9em;
 }
 
