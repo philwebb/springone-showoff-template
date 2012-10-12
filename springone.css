@@ -22,7 +22,7 @@ dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
 
 div.slide {
 	width: 1280px;
-	height: 720px;
+	height: 680px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative !important;
@@ -152,8 +152,11 @@ h1 {
     top: 50%;
 	width: 100%;
 	padding: 0;
-	z-index: 2147483647;
 	font-size: 0.9em;
+}
+
+#copyright, #footer {
+	z-index: 1;
 }
 
 #footer > span, #copyright > span {
